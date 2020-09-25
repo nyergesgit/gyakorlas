@@ -1,0 +1,45 @@
+/* a-ra pakolt pseudo elemek: link, visited, hover, active. */
+a:link {text-decoration: none;
+color: red;
+}
+a:visited {
+    text-decoration: line-through;
+    color: blue;
+}
+a:hover {
+    text-decoration: overline;
+    color: mediumseagreen;
+}
+a:active {
+    text-decoration: none;
+    color: silver;
+}
+table, th, td {
+    border: 2px solid dodgerblue;
+}
+ table {
+    /* border-spacing: 20px; */
+    border-collapse: collapse;  
+    empty-cells: hide;
+    text-align: center;
+ }
+ th, td {
+padding: 20px;
+}
+tr:nth-child(odd) {
+    background-color: lightgreen; 
+}
+ tr:hover {
+    background-color: #000;
+    color: #fff;
+    font-size: 2em;
+  } 
+  caption {
+    text-decoration: dashed red;
+    margin: 20px 0px;
+    }
+    #lila {
+/* list-style-type: disc; */
+/* lista elem jelölő kiválasztása. lehet disc, circle, square, none */
+list-style-image: url("./p.gif");
+}
